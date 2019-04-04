@@ -1,0 +1,49 @@
+--cpu Cortex-M3
+".\build\main.o"
+".\build\sdfilesystem.o"
+".\build\fatdirhandle.o"
+".\build\fatfilehandle.o"
+".\build\fatfilesystem.o"
+".\build\ccsbcs.o"
+".\build\ff.o"
+".\build\diskio.o"
+".\build\serial_camera.o"
+".\build\debug.o"
+".\build\eaepaper.o"
+".\build\graphicsdisplay.o"
+".\build\textdisplay.o"
+".\build\epd.o"
+".\build\disbuffer.o"
+".\build\joystick.o"
+".\build\imageprocessor.o"
+".\build\bmpfile.o"
+".\build\command.o"
+".\build\simplejpegdecode.o"
+".\build\aanidct.o"
+".\build\basejpegdecode.o"
+".\build\bitpattern.o"
+".\build\huffmandecode.o"
+".\build\inversedct.o"
+".\build\thermal.o"
+".\build\adafruit_thermal.o"
+--strict --scatter "mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/LPC1768.sct"
+
+
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/cmsis_nvic.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/system_LPC17xx.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/sys.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/board.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/retarget.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/startup_LPC17xx.o
+            
+              mbed/TARGET_LPC1768/TOOLCHAIN_ARM_STD/mbed.ar
+            
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\SerialCamera_DemoCode_OJ_OV528.map" -o .\build\SerialCamera_DemoCode_OJ_OV528.axf
