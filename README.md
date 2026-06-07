@@ -1,7 +1,13 @@
 # monocamera
 
 Monocamera is an embedded photo capture and printing project for an mbed-compatible NXP LPC1768 board. It connects a serial camera module to an SD card, converts captured images into bitmap formats, and outputs the result to a thermal printer or e-paper display.
+## Background
 
+This project was done right after I graduated from university. An artist approached me with an interesting idea: a camera that doesn't just take pictures, but "sees" like an insect — compound eyes, different field of view, and prints the result immediately on thermal sticker paper.
+
+I had no experience with cameras or thermal printers back then. I learned everything from scratch — reading datasheets, debugging the serial camera protocol, figuring out how to drive the printer. It took a few months, but eventually it worked.
+
+This is not a commercial product. It's an **art + engineering prototype** that taught me how to build a complete embedded system from the ground up.
 ## Features
 
 - Capture JPEG photos from a serial camera module
