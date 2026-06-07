@@ -33,10 +33,10 @@ The main program performs the following steps:
 
 ## Important Source Files
 
-- `/tmp/workspace/arniexu/monocamera/main.cpp` - main device workflow
-- `/tmp/workspace/arniexu/monocamera/command.cpp` - command handlers for capture, conversion, display, and printing
-- `/tmp/workspace/arniexu/monocamera/command.h` - command declarations
-- `/tmp/workspace/arniexu/monocamera/serial_camera/serial_camera.h` - serial camera protocol definitions
+- `main.cpp` - main device workflow
+- `command.cpp` - command handlers for capture, conversion, display, and printing
+- `command.h` - command declarations
+- `serial_camera/serial_camera.h` - serial camera protocol definitions
 
 ## Repository Structure
 
